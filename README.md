@@ -2,12 +2,12 @@
 
 ## Starting a New Template
 
-* A new email template may be started by creating a new folder and copying any html template from the 'email-blueprints-master' folder into it.
-* To add images, include them within a 'images/' folder within your project.
+* A new email template may be started by creating a new folder and copying any html template from the `email-blueprints-master` folder into it.
+* To add images, include them within a `images/` folder within your project.
 
 ## Editing an Existing Template
 
-* Some previous emails will have a 'email_editable_stylesheet.html' file within the folder. You can copy this email into your own project and from there continue onto the next step.
+* Some previous emails will have a `email_editable_stylesheet.html` file within the folder. You can copy this email into your own project and from there continue onto the next step.
 
 ## Preparing and Uploading the Template
 
