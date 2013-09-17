@@ -31,7 +31,7 @@
 			* @theme page
 			*/
 			body, #bodyTable{
-				/*@editable*/ background-color:#DEE0E2;
+				/*@editable*/ background-color:#f4f4f4;
 			}
 
 			/**
@@ -345,8 +345,8 @@
 			* @theme footer
 			*/
 			#templateFooter{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ background-color:#f4f4f4;
+				/*@editable*/ border-top:none;
 			}
 
 			/**
@@ -544,47 +544,55 @@
                                 </td>
                             </tr>
                         	<tr>
-                            	<td align="center" valign="top">
-                                	<!-- BEGIN HEADER // -->
-                                	<table width="600" border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border-collapse: collapse;">
-																	<tr style="margin:0;padding:0">
-																	<td style="margin:0;padding:23px 20px; background-color:#2692d7;">
-																	<a href="http://www.nitrous.io" target="_blank" alt="Nitrous.IO Logo"><img src="images/nitrous-logo-newsletter-lg.png" width="186px"></a>
-															</td>
-															<td style="margin:0;padding:8px 20px; background-color:#2692d7;">
-																<h1 style="display: block;font-family: Helvetica;font-size: 21px;font-style: normal;line-height: 100%;letter-spacing: normal;margin-top: 10px;margin-bottom: 10px;margin-left: 0;text-align: right;color: #FFFFFF;">New Features</h1>
-															</td>
+                            	<td align="center" valign="top" style="padding: 24px 0;">
+                                	<!-- BEGIN HEADER // -->                                																	
+																			<a href="http://www.nitrous.io" target="_blank" alt="Nitrous.IO Logo"><img src="images/nitrous-email-grey.png" /></a>
+																</td>											
 													</tr>
 												</table>
                         <!-- // End Template Preheader \\ -->
                     	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border: 1px solid #cccccc;border-bottom: 0;">
                                 	<!-- BEGIN BODY // -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
                                         <tr>
                                             <td valign="top" class="bodyContent" mc:edit="body_content00">
                                                 <h1>Autoparts: A Package Manager for Nitrous.IO</h1>
-                                                <p>We are wanting to share with you our new package manager which allows you to install databases, interpreters, and other tools. Looking to start a project with MySQL, MongoDB, or Postgres? We got you covered.</p>
-                                                <p>To get started with Autoparts, create a new Nitrous box and run "parts search" to view all of the tools and databases available. If you wish to install a database such as MySQL, run "parts install mysql".</p>
+                                                <p>Today we're excited to share a new package manager that allows you to install databases, interpreters, and other tools on your Nitrous.IO box.  If you're looking to start a project with MySQL, MongoDB, or Postgres, we've got you covered.</p>
+                                                <p>To get started with Autoparts, create a new box and run "parts search" to view a list of languages, databases and other packages available.  If you wish to install a database such as MySQL, run "parts install mysql".</p>
                                             </td>
                                         </tr>
                                     	<tr>
                                         	<td class="bodyContent" style="padding-top:0; padding-bottom:0;">
-                                            	<img src="images/autoparts.png" style="max-width:560px;" alt="Autoparts Package Manager" id="bodyImage" mc:label="body_image" mc:edit="body_image" mc:allowtext />
+                                            	<img src="images/autoparts.png" style="max-width:560px; padding: 5px; border: 1px solid #ccc;" alt="Autoparts Package Manager" id="bodyImage" mc:label="body_image" mc:edit="body_image" mc:allowtext />
                                             </td>
                                         </tr>
                                         <tr>
                                         	<td valign="top" class="bodyContent" mc:edit="body_content00">
                                             <p>For more information on how to use Autoparts, please visit the <a href="http://help.nitrous.io/autoparts/" target ="_blank">Autoparts guide</a> on our help site.</p>
-                                            <p>Don't want to wait for certain a tool to be added? Take a look at Autoparts on <a href="https://github.com/action-io/autoparts" target="_blank">Github</a> and feel free to make a pull request.</p>
+
+                                            <h2>Build Your Packages: Open Source</h2>
+
+                                            <p>The Nitrous.IO Autoparts manager is completely open source.  We hope that the community will help to build their own installation and configuration scripts to run their services on Nitrous.IO.  To learn more, please check out  <a href="https://github.com/action-io/autoparts" target="_blank">Autoparts on Github</a>.</p>
                                           </td>
                                         </tr>
                                         <tr>
                                             <td valign="top" class="bodyContent" mc:edit="body_content01">
-                                                <h2>New updates with Bran</h2>
-                                                Bran brings support for inotify, which is used by popular tools such as guard, fswatch, and Sass.
+                                                <h2>New Runtime</h2>
+                                                All new boxes on Nitrous.IO will run the `Bran` stack.  Bran introduces support for `inotify`, which is used by popular tools such as guard, fswatch, and Sass.
+
+                                                You can see which box you are on in your boxes index page on the website.
                                             </td>
+                                        </tr>
+                                        <tr>
+                                        	<td valign="top" class="bodyContent">
+                                        		<a href="https://www.nitrous.io/mac/Nitrous-Mac-Latest.zip" style="text-decoration: none;-webkit-text-size-adjust:100%;-ms-text-size-adjust: 100%;color: #222222;font-weight: normal;" target="_blank">
+                                        			<div style="background-color:#eeeeee; width:540px; margin:20px auto 20px;text-align:center;font-size:22px;font-weight:lighter;line-height:18px;padding:5px;border:1px solid #ccc;" align="left">
+                                        				<p style="text-align: center;color: white;-webkit-text-size-adjust: 100%;color: #222222;-ms-text-size-adjust: 100%;">Login to Nitrous.IO</p>
+                                        			</div>
+                                        		</a>                                        	
+                                        	</td>
                                         </tr>
                                     </table>
                                     <!-- // END BODY -->
