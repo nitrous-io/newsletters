@@ -1,0 +1,729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+			ul{padding-left: 17px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#f4f4f4;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color:#404040 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color:#606060 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color:#808080 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#FFFFFF;
+											border-top: 1px solid #FFFFFF;
+											border-bottom: 1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Column Styles ========== */
+
+			.templateColumnContainer{width:260px;}
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#f4f4f4;
+				/*@editable*/ border-top:none;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**custom**/
+			.nodec{
+				color: black;
+				text-decoration: none;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Column Styles ======== */
+
+				.templateColumnContainer{display:block !important; width:100% !important;}
+
+				/**
+				* @tab Mobile Styles
+				* @section column image
+				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				.columnImage{
+					height:auto !important;
+					/*@editable*/ max-width:480px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section left column text
+				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.leftColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section right column text
+				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.rightColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top" style="padding: 24px 0;">
+                                	<!-- BEGIN HEADER // -->
+																			<a href="http://www.nitrous.io" target="_blank"><img src="images/nitrous-email-grey.png" alt="Nitrous.IO Logo"/></a>
+																</td>
+													</tr>
+												</table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                        	<td colspan="4" valign="top" class="bodyContent">
+
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <h1>Autoparts: A Package Manager for Nitrous.IO</h1>
+                                                <p>
+                                                	This month we released a <a href="https://github.com/action-io/autoparts" target="_blank">new package manager</a> that allows you to install databases, languages, and other tools on your Nitrous.IO box. If you're looking to add MySQL, MongoDB, Postgres or another service to your project on Nitrous.IO, we've got you covered.</p>
+                                                <p>
+		                                            	<img src="images/autoparts.png" style="max-width:560px; padding: 5px; border: 1px solid #ccc;" alt="Autoparts Package Manager" id="bodyImage" mc:label="body_image" mc:edit="body_image" />
+		                                            </p>
+		                                            <p>
+                                                	To get started with <a href="http://help.nitrous.io/autoparts/" target ="_blank">Autoparts</a>, create a new box and run <span style="background:#eeeeee;border:1px solid #ddd;padding:3px 5px;color:#c55;">parts search</span> to view a list of languages, databases and other packages available.  Installing packages is incredibly easy.  For example, to install MySQL on your box, simply run <span style="background:#eeeeee;border:1px solid #ddd;padding:3px 5px;color:#c55;">parts install mysql</span> in the console.
+                                                </p>
+                                                <br />
+                                                 	<h1>In the News: Homeless Man Learns to Code with Nitrous.IO</h1>
+                                                 	<p>
+		                                            	<img src="images/leo-chromebook.jpg" style="max-width:560px; padding: 5px; border: 1px solid #ccc;" alt="Leo with Chromebook" id="bodyImage" mc:label="body_image" mc:edit="body_image" />
+		                                            </p>
+				                                          <p>We want to share this inspirational story of how a developer offered a homeless man either one hundred dollars or to teach him how to code. He is now building a global warming awareness app on a Chromebook using Nitrous.IO. <a href="http://www.businessinsider.com/homeless-coder-2013-9" target="_blank">Read the Business Insider article</a> for the full story.</p>
+				                                          <br />
+																								<h1>Nitrous.IO Stories</h1>
+                                              			<p>We have been talking to developers, academies, and startups this month. Read about how Nitrous is used in different scenarios, and pick up a few tips along the way.</p>
+																									</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+
+                                            </td>
+                                        </tr>
+                                    	<tr>
+                                        	<td valign="top" width="130" class="columnOneContent">
+
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <a href="http://blog.nitrous.io/2013/09/27/nitrous-io-stories-rails-girls.html" target="_blank"><img src="images/rails-girls.jpg" style="width:110px;" alt="Rails Girls" mc:label="image" mc:edit="tiwc150_image00" /></a>
+                                                            <div mc:edit="tiwc150_content00">
+                                                            	<br/>
+                                                                <strong><a href="http://blog.nitrous.io/2013/09/27/nitrous-io-stories-rails-girls.html" target="_blank" class="nodec">Rails Girls</a></strong>
+                                                                <p>Rails Girls is a global community which helps women understand technology and to build their ideas.</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+
+                                            </td>
+                                        	<td valign="top" width="130" class="columnTwoContent">
+
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <a href="http://blog.nitrous.io/2013/09/03/kevin-and-jamon-at-clearsight-studio.html" target="_blank"><img src="images/clearsight.png" style="width:110px;" alt="Clearsight Studio" mc:label="image" mc:edit="tiwc150_image01" /></a>
+                                                            <div mc:edit="tiwc150_content01">
+ 	                                                            <br>
+                                                                <strong><a href="http://blog.nitrous.io/2013/09/03/kevin-and-jamon-at-clearsight-studio.html" target="_blank" class="nodec">ClearSight</a></strong>
+                                                                <p>ClearSight Studio is a web and mobile app design and development studio whom specializes in Rails and RubyMotion.</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+
+                                            </td>
+                                        	<td valign="top" width="130" class="columnThreeContent">
+
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <a href="http://blog.nitrous.io/2013/09/10/nitrous-io-stories-miles-smith.html" target="_blank"><img src="images/miles-smith.jpg" style="width:110px;" alt="Miles Smith" mc:label="image" mc:edit="tiwc150_image02" /></a>
+                                                            <div mc:edit="tiwc150_content02">
+ 	                                                            <br/>
+                                                                <strong><a href="http://blog.nitrous.io/2013/09/10/nitrous-io-stories-miles-smith.html" target="_blank" class="nodec">Miles Smith</a></strong>
+                                                                <p>Miles is a Ruby/JS developer who develops for the video game industry. He built a <a href="http://minecraftservers.com/" target="_blank">server tracker for Minecraft </a> using Nitrous.IO.</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+
+                                            </td>
+                                        	<td valign="top" width="130" class="columnFourContent">
+
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <a href="http://blog.nitrous.io/2013/09/19/nitrous-io-stories-team-claimable.html" target="_blank"><img src="images/claimable.jpg" style="width:110px;" alt="Claimable" mc:label="image" mc:edit="tiwc150_image03" /></a>
+                                                            <div mc:edit="tiwc150_content03">
+																														<br/>
+                                                                <strong><a href="http://blog.nitrous.io/2013/09/19/nitrous-io-stories-team-claimable.html" target="_blank" class="nodec">Claimable</a></strong>
+                                                                <p>Claimable is a web app for insurance claims management. The team uses Nitrous in ways we didn't imagine.</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+
+                                            </td>
+                                        </tr>
+                                    	<tr>
+                                        	<td colspan="4" valign="top" class="fullWidthBandContent">
+
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top" class="bodyContent">
+                                                            <div mc:edit="std_content01">
+                                                              <a href="http://thoughtbot.com/" target="_blank"><img src="images/thoughtbot.png" alt="thoughtbot" width="242"></a>
+					                                              <p>thoughtbot's book Ruby Science has just hit the digital presses. By reading Ruby Science, you’ll learn to detect code smells, discover ways to refactor sticky code, and read about patterns you can use to solve common issues. You’ll also read about useful principles for writing fast, fun, and flexible code.
+					                                              </p>
+					                                              <p>Your purchase gets you access to the 1.0 release, all future updates, and the companion example application.</p>
+					                                              <p>
+					                                              	<a href="https://learn.thoughtbot.com/products/13-ruby-science" target="_blank">Get your copy of Ruby Science today!</a>
+					                                              </p>
+                                                            </div>
+                                                          </br>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                                                    </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+                                                <a href="https://twitter.com/NitrousIO" target="_blank">Follow us on Twitter</a>&nbsp;&nbsp;&nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
