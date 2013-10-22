@@ -30,10 +30,9 @@
 			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
 			* @theme page
 			*/
-			body, #bodyTable{
+			.container, #bodyTable{
 				/*@editable*/ background-color:#f4f4f4;
 			}
-
 			/**
 			* @tab Page
 			* @section background style
@@ -537,12 +536,13 @@
 		</style>
     </head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<div class="container">
     	<center>
         	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
           	<tr>
               	<td align="center" valign="top" style="padding: 24px 0;">
                   	<!-- BEGIN HEADER // -->                                																	
-												<a href="http://www.nitrous.io" target="_blank" alt="Nitrous.IO Logo"><img src="images/nitrous-email-grey.png" /></a>
+												<a href="http://www.nitrous.io" target="_blank" alt="Nitrous.IO Logo"><img src="https://raw.github.com/action-io/action-assets/master/email/nitrous-email-grey.png" /></a>
 									</td>											
 						</tr>
 					</table>
@@ -556,11 +556,13 @@
                                       <td valign="top" class="bodyContent" mc:edit="body_content">
                                       	<h1>#{@user.username} invited you to use Nitrous.IO</h1>
                                       	<h4>Nitrous.IO provides a lightning fast way to setup and manage development environments in the cloud.</h4>
-                                      	<p>You don't have to worry about installing and configuring Ruby/Rails, Python/Django, Node.JS, or Go. They are already installed along with other interpreters and tools, so you can start coding immediately.</p>
-                                      		<p>Click the link below to get an extra 250MB of storage with your account:
+                                      	<p>
+                                      		Nitrous.IO provides you with a free development environment which you can start coding on immediately. Your code is available from any location, and many tools and interpreters are already setup for you (Ruby on Rails, Python/Django, Go, Node.JS, etc).
+                                      	</p>
+                                      		<p>Sign up with the referral link below in order for you and #{@user.username} to receive an extra 250MB of storage with your account:
                                       		</p>
                                       		<p>
-                                      			[#{_reg_url}](#{_reg_url})
+                                      			<a href="#{_reg_url}">Create a Free Account with Nitrous.IO</a>
                                       		</p>
                                       </td>
                                   </tr>
@@ -577,7 +579,7 @@
                                       	<table border="0" cellpadding="20" cellspacing="0" width="100%">
                                         	<tr>
                                             	<td class="leftColumnContent">
-                                                	<img src="images/collab-menu.png" alt="Collaborate" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                	<img src="https://raw.github.com/action-io/action-assets/master/email/collab-menu.png" alt="Collaborate" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
                                                 </td>
                                             </tr>
                                             <tr>
@@ -594,7 +596,7 @@
                                     	<table border="0" cellpadding="20" cellspacing="0" width="100%">
                                         	<tr>
                                             	<td class="rightColumnContent">
-                                                	<img src="images/file-browser.png" alt="Accessing Your Code" style="max-width:260px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                	<img src="https://raw.github.com/action-io/action-assets/master/email/file-browser.png" alt="Accessing Your Code" style="max-width:260px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" />
                                                 </td>
                                             </tr>
                                             <tr>
@@ -651,5 +653,6 @@
                 </tr>
             </table>
         </center>
+      </div>
     </body>
 </html>

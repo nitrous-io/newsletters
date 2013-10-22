@@ -1,17 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>*|MC:SUBJECT|*</title>
         
     </head>
-    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;background-color: #f4f4f4;height: 100%;width: 100%;">
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;height: 100%;width: 100%;">
+    	<div class="container" style="background-color: #f4f4f4;">
     	<center>
         	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border-collapse: collapse;">
           	<tr>
               	<td align="center" valign="top" style="padding: 24px 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
                   	<!-- BEGIN HEADER // -->                                																	
-												<a href="http://www.nitrous.io" target="_blank" alt="Nitrous.IO Logo" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;"><img src="images/nitrous-email-grey.png" style="-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;"></a>
+												<a href="http://www.nitrous.io" target="_blank" alt="Nitrous.IO Logo" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;"><img src="https://raw.github.com/action-io/action-assets/master/email/nitrous-email-grey.png" style="-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;"></a>
 									</td>											
 						</tr>
 					</table>
@@ -23,10 +23,13 @@
                               <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #FFFFFF;border-top: 1px solid #FFFFFF;border-bottom: 1px solid #CCCCCC;border-collapse: collapse;">
                                   <tr>
                                       <td valign="top" class="bodyContent" mc:edit="body_content" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 16px;line-height: 150%;padding-top: 20px;padding-right: 20px;padding-left: 20px;text-align: left;">
-                                      	<h1 style="color: #202020;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;">{user} invited you to use Nitrous.IO</h1>
+                                      	<h1 style="color: #202020;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;">#{@user.username} invited you to use Nitrous.IO</h1>
                                       	<h4 style="display: block;font-family: Helvetica;font-size: 14px;font-style: italic;font-weight: normal;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #808080;">Nitrous.IO provides a lightning fast way to setup and manage development environments in the cloud.</h4>
-                                      	<p style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">You don't have to worry about installing and configuring Ruby/Rails, Python/Django, Node.JS, or Go. They are already installed along with other interpreters and tools, so you can start coding immediately.</p>
-                                      		<p style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Click the link below to get an extra 250MB of storage with your account:
+                                      	<p style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Nitrous.IO provides you with a free development environment which you can start coding on immediately. Your code is available from any location, and many tools and interpreters are already setup for you (Ruby on Rails, Python/Django, Go, Node.JS, etc).</p>
+                                      		<p style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Sign up with the referral link below in order for you and #{@user.username} to receive an extra 250MB of storage with your account:
+                                      		</p>
+                                      		<p style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">
+                                      			[#{_reg_url}](#{_reg_url})
                                       		</p>
                                       </td>
                                   </tr>
@@ -43,7 +46,7 @@
                                       	<table border="0" cellpadding="20" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;">
                                         	<tr>
                                             	<td class="leftColumnContent" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 14px;line-height: 150%;padding-top: 0;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;">
-                                                	<img src="images/collab-menu.png" alt="Collaborate" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image">
+                                                	<img src="https://raw.github.com/action-io/action-assets/master/email/collab-menu.png" alt="Collaborate" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -60,7 +63,7 @@
                                     	<table border="0" cellpadding="20" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;">
                                         	<tr>
                                             	<td class="rightColumnContent" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 14px;line-height: 150%;padding-top: 0;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;">
-                                                	<img src="images/file-browser.png" alt="Accessing Your Code" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image">
+                                                	<img src="https://raw.github.com/action-io/action-assets/master/email/file-browser.png" alt="Accessing Your Code" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -72,9 +75,9 @@
                                                     	</li>
                                                     	<li style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Connect with the <a href="https://chrome.google.com/webstore/detail/nitrousio/efdcneeepllhjlbejkfnaolelbpdacai" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #EB4102;font-weight: normal;text-decoration: underline;">Chrome Packaged App</a>.
                                                     	</li>
-                                                    	<li style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Connect via <a href="http://help.nitrous.io/ssh-add/" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #EB4102;font-weight: normal;text-decoration: underline;">SSH</a>.
+                                                    	<li style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Connect via SSH.
                                                     	</li>
-                                                    	<li style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Use your local text editor and sync with the <a href="https://www.nitrous.io/mac" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #EB4102;font-weight: normal;text-decoration: underline;">Mac App</a>.
+                                                    	<li style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">Use your local text editor and sync with the Mac App.
                                                     	</li>
                                                     </ul>
                                                 </td>
@@ -111,11 +114,8 @@
                                     <!-- // END FOOTER -->
                                 </td>
                             </tr>
-                        </table>
-                        <!-- // END TEMPLATE -->
-                    
-                
-            
+                        </table>     
         </center>
+      </div>
     </body>
 </html>
