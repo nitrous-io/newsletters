@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+			ul{padding-left: 17px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#f4f4f4;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color:#404040 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color:#606060 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color:#808080 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#FFFFFF;
+											border-top: 1px solid #FFFFFF;
+											border-bottom: 1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Column Styles ========== */
+
+			.templateColumnContainer{width:260px;}
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#f4f4f4;
+				/*@editable*/ border-top:none;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**custom**/
+			.nodec{
+				color: black;
+				text-decoration: none;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Column Styles ======== */
+
+				.templateColumnContainer{display:block !important; width:100% !important;}
+
+				/**
+				* @tab Mobile Styles
+				* @section column image
+				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				.columnImage{
+					height:auto !important;
+					/*@editable*/ max-width:480px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section left column text
+				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.leftColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section right column text
+				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.rightColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top" style="padding: 24px 0;">
+                                	<!-- BEGIN HEADER // -->
+																			<a href="http://www.nitrous.io" target="_blank"><img src="images/nitrous-email-grey.png" alt="Nitrous.IO Logo"/></a>
+																</td>
+													</tr>
+												</table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                        	<td colspan="4" valign="top" class="bodyContent">
+
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <h1>The Nitrous.IO Web IDE Levels Up</h1>
+                                              <p>
+                                              	At Nitrous.IO, we like to say that our Web IDE is the easiest way to code in your web browser. This month we shipped many of the great IDE improvements you've been waiting for.
+                                              </p>
+																							<p>
+	                                            	<a href="http://help.nitrous.io/quick-open/" target="_blank"><img src="images/quick-open.png" style="max-width:560px; padding: 5px; border: 1px solid #ccc;" alt="Quick Open" id="bodyImage" mc:label="body_image" mc:edit="body_image" /></a>
+	                                            </p>
+	                                            <p>
+	                                            	Let's take a quick look at some of the new improvements:
+	                                            </p>
+	                                            <ul>
+	                                            	<li><a href="http://help.nitrous.io/quick-open/" taget="_blank">Quick Open</a> (pictured above): Looking for a specific file within your Nitrous box? Press <strong>Shift-Ctrl-P</strong> while using the editor to quickly find and open any file.
+																								</li>
+	                                            	<li><a href="http://blog.nitrous.io/2014/05/28/find-in-project.html" taget="_blank">Find in Project</a>: We've added a search menu which allows you to search through all of the files within your project, and open a file within the search results. Press <strong>Shift-Ctrl-F (Shift-Cmd-F for Mac)</strong> in order to bring up the search menu.
+																								</li>
+																								<li><a href="http://blog.nitrous.io/2014/05/13/ide-improvements.html" target="_blank">Auto Completion</a>: You can now access auto completion hints for CSS, XML, HTML and JavaScript files. Press <strong>Ctrl-Space</strong> to see auto completion hints, and press <strong>Tab</strong> or <strong>Enter</strong> to insert your current selection.
+																								</li>
+		                                            <li><a href="http://blog.nitrous.io/2014/05/02/new-themes-available-for-web-ide.html" taget="_blank">Light and Dark Themes</a>: You can choose from 8 different themes by navigating in the menu to <strong>View > Themes</strong>.
+																								</li>
+																								<li><a href="http://blog.nitrous.io/2014/05/13/ide-improvements.html" taget="_blank">Bracket Matching</a>: Brackets, braces, parentheses and quotes are now auto-closed for you. To jump to the matching bracket, hit <strong>Ctrl-M</strong>.
+																								</li>
+																							</ul>
+	                                            <p>
+																								Read our <a href="http://blog.nitrous.io/2014/05/13/ide-improvements.html" target="_blank">blog post</a> for list of other new features that have been added.
+																							</p>
+                                              <br />
+                                              <h1>Learning Clojure on Nitrous.IO</h1>
+																							<p>
+                                              	Some developers may not know that Java Virtual Machine (JVM) is included in every Nitrous box. Now knowing this, you can start working on Clojure projects within seconds.
+                                              </p>
+	                                            	<a href="http://blog.nitrous.io/2014/05/06/learn-clojure.html" target="_blank"><img src="images/search_autoparts_clojure.png" style="max-width:560px; padding: 5px; border: 1px solid #ccc;" alt="Clojure" id="bodyImage" mc:label="body_image" mc:edit="body_image" /></a>
+	                                            </p>
+	                                            <p>
+                                               Clojure is a dialect of LISP, a great way to pick up functional programming, and can be compiled to both JVM bytecode and JavaScript. This makes it a viable language for writing both server-side and client-side applications.
+                                              <p>
+	                                            <p>
+	                                            	Ready to start? Read our article, <a href="http://blog.nitrous.io/2014/05/06/learn-clojure.html" target="_blank">Learning Clojure on Nitrous.IO</a>.
+	                                            </p>
+				                                      <br />
+																							</td>
+                                             	</tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+																							<h1>Learning</h1>
+                                              Our developers in San Francisco and Singapore have been found at many meetups lately talking about Go, Ember.JS, and a few other things we are fond of.
+                                            </td>
+                                        </tr>
+                                    	<tr>
+                      	<td align="center" valign="top">
+                          	<!-- BEGIN COLUMNS // -->
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
+                              	<tr style="border: 1px solid #cccccc;border-top: 0;">
+                                  	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                      	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                        	<tr>
+                                            	<td class="leftColumnContent">
+                                                	<a href="http://blog.nitrous.io/2014/05/22/golang-sg-meetup.html" target="_blank"><img src="images/go-sg-meetup.jpg" alt="Golang Meetup" style="max-width:260px; padding: 5px; border: 1px solid #ccc;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            	<td valign="top" class="leftColumnContent" mc:edit="left_column_content">
+                                                    <h3>Golang Meetup Recap</h3>
+                                                    <p>
+                                                    	We recently hosted the first Golang meetup in Singapore which included talks about static analysis as well as an introduction.
+                                                    </p>
+                                                    <p>
+                                                    	 <a href="http://blog.nitrous.io/2014/05/22/golang-sg-meetup.html" target="_blank">Take a look at our blog post</a> to view slides and read more about how you can get involved with the Go language community.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                    	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                        	<tr>
+                                            	<td class="rightColumnContent">
+                                                	<a href="http://blog.nitrous.io/2014/04/30/building-desktop-apps-with-ember-and-node-webkit.html" target="_blank"><img src="images/ember-slides.png" alt="Ember.JS" style="max-width:260px; padding: 5px; border: 1px solid #ccc;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" /></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            	<td valign="top" class="rightColumnContent" mc:edit="right_column_content">
+                                                    <h3>Building Desktop Apps with Ember.JS</h3>
+                                                    <p>
+                                                    	This month, Pete Kim held a presentation on how you can build desktop apps with Ember.JS and Node-webkit. This method allows you to quickly build a cross-platform OS X or Windows application and customize it using JavaScript and CSS.
+                                                    </p>
+                                                    <p>
+                                                      Want to see how it's done? Head over to our blog and <a href="http://blog.nitrous.io/2014/04/30/building-desktop-apps-with-ember-and-node-webkit.html" target="_blank">view the presentation slides and download the demos</a>. 
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                              <!-- // END COLUMNS -->
+                          </td>
+                      </tr>
+                      <tr>
+                      	<td colspan="4" valign="top" class="fullWidthBandContent">
+                              <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                  <tr>
+                                      <td valign="top" class="bodyContent">
+                                          <div mc:edit="std_content01">
+                                             <h1>New Packages Available in Autoparts</h1>
+                                             	 <p>
+                                             	 	We have been busy adding many new packages which users have asked for, and the Nitrous.IO community has been pitching in as well. New packages include:
+                                             	 	<ul>
+                                             	 		<li>
+                                             	 			CouchDB
+                                             	 		</li>
+                                             	 		<li>
+                                             	 			Leiningen (for Clojure support)
+                                             	 		</li>
+                                             	 		<li>
+                                             	 			Elixir
+                                             	 		</li>
+                                             	 		<li>
+                                             	 			Google App Engine (Go version)
+                                             	 		</li>
+                                             	 		<li>
+                                             	 			Exuberant Ctags
+                                             	 		</li>
+                                             	 		<li>
+                                             	 			Chruby  (for Ruby version control)
+                                             	 		</li>
+                                             	 	</ul>
+                                             	 </p>
+                                             	 <p>
+                                             	 <a href="http://updates.nitrous.io/" target="_blank">View the changelog for a full list of updates</a>.
+                                             	 </p>     	
+                                             	 <h1>Add Startup Scripts to Your Nitrous Box</h1>
+                                             	 <p>
+                                             	 	The .nitrousboxrc file allows you to run scripts in non-interactive mode when your Nitrous box starts. This means if your Nitrous box is ever restarted in any scenario (including automatic restarts after maintenance), you can ensure these scripts will start back up.
+                                             	 </p>
+                                             	 <p>
+		                                            To get started, <a href="http://blog.nitrous.io/2014/05/05/customizing-box-start.html" target="_blank">read our article</a> on configuring your .nitrousboxrc file.
+                                             	 </p>
+                                          </div>
+                                        </br>
+                                      </td>
+                                    </tr>
+                                  </table>
+		                            </td>
+		                          </tr>
+		                        </table>
+                          </td>
+                        </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+                                                <a href="https://twitter.com/NitrousIO" target="_blank">Follow us on Twitter</a>&nbsp;&nbsp;&nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                300 Brannan St
+                                                <br />
+                                                Ste 406
+                                                <br />
+                                                San Francisco, CA 94107
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0; padding-bottom:40px;" mc:edit="footer_content02">
+                                            	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
